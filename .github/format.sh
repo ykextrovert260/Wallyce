@@ -17,6 +17,6 @@ done
 if [[ -n "$(git status | grep "json")" ]]; then
     git add .
     git commit --amend -m "${COMMIT_MESSAGE}" --author="${COMMIT_AUTHOR}" --signoff
-    git remote set-url origin "https://Introdructor:${GH_TOKEN}@github.com/Introdructor/wallique_json/"
+    git remote set-url origin "https://ykextrovert260:${GH_TOKEN}@github.com/ykextrovert260/wallyce_json/"
     git push origin -f
 fi
