@@ -2,8 +2,8 @@
 
 [[ -z "${GH_TOKEN}" ]] && echo "No gh token!" && exit 1
 
-git config --global user.email "yashkachave7@gmail.com"
-git config --global user.name "Introdructor"
+git config --global user.email "yashkachave6@gmail.com"
+git config --global user.name "ykextrovert260"
 
 COMMIT_AUTHOR="$(git log -1 --pretty='%an <%ae>')"
 COMMIT_MESSAGE="$(git log -1 --pretty=%B)"
